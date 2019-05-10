@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [5.0.6] - 2019-05-10
+### Fixed
+ - Improved first person camera control
+
+## [5.0.5] - 2019-05-08
+### Fixed
+ - Fixed crashes in Chrome 74 on Windows/Linux by not using Web Workers for .ctm parsing
+
 ## [5.0.4] - 2019-05-07
 ### Fixed
  - Issue with `enableKeyboardNavigation` after viewer.dispose is called.
