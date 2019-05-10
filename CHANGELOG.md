@@ -1,7 +1,33 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [5.0.0] - 2019-04-XX
+## [5.0.6] - 2019-05-10
+### Fixed
+ - Improved first person camera control
+
+## [5.0.5] - 2019-05-08
+### Fixed
+ - Fixed crashes in Chrome 74 on Windows/Linux by not using Web Workers for .ctm parsing
+
+## [5.0.4] - 2019-05-07
+### Fixed
+ - Issue with `enableKeyboardNavigation` after viewer.dispose is called.
+
+## [5.0.3] - 2019-05-07
+### Fixed
+ - Issues after `Cognite3DViewer.dispose` has been called.
+ - Suddenly disappearing objects when using bounding box filter.
+ - Fixed infinite move when pressing Cmd/Ctrl+A.
+
+## [5.0.2] - 2019-05-04
+### Fixed
+ - Missing geometries if large bounding box filter was used.
+
+## [5.0.1] - 2019-05-03
+### Fixed
+ - Supporting multiple instances of `mixpanel`.
+
+## [5.0.0] - 2019-05-03
 ### Added
 - Screen space culling based on size of each object to increase frame rate.
 - New memory layout to drastically reduce memory usage.
