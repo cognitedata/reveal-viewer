@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [5.1.1] - 2019-05-31
+### Fixed
+ - Fixed an issue where more instanced meshes were rendered than expected
+
 ## [5.1.0] - 2019-05-31
 ### Fixed
  - Fixed issue with instanced meshes in combination with bounding box filter
