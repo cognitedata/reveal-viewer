@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 ## [5.1.0] - 2019-05-31
 ### Fixed
  - Fixed issue with instanced meshes in combination with bounding box filter
+ - More relaxed loading to avoid blocking main thread too much
  
 ### Changed
  - Canvas has default size (change from 5.0.8)
