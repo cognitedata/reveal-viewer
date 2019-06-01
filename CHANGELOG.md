@@ -1,6 +1,39 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [5.1.1] - 2019-05-31
+### Fixed
+ - Fixed an issue where more instanced meshes were rendered than expected
+
+## [5.1.0] - 2019-05-31
+### Fixed
+ - Fixed issue with instanced meshes in combination with bounding box filter
+ - More relaxed loading to avoid blocking main thread too much
+ 
+### Changed
+ - Canvas has default size (change from 5.0.8)
+ - tslint-config-prettier and tslint-plugin-prettier removed as dependencies
+
+
+## [5.0.8] - 2019-05-21
+NB! Breaking change, should have been minor bump.
+### Added
+ - Added @babel/plugin-transform-runtime to webpack configuration file
+
+### Fixed
+ - Fixed camera speed on single mesh scenes (i.e. from photogrammetry)
+ - Do not run loaderOptions.onComplete if viewer is disposed
+ - Improved disposed function
+ - Redraw after add/remove THREE.Object3D
+ - Using additional objects to compute near and far plane
+ 
+### Changed
+ - Set fixed canvas size and use min-width/min-height instead
+
+## [5.0.7] - 2019-05-14
+### Fixed
+ - Disable all functions in viewer when disposed
+
 ## [5.0.6] - 2019-05-10
 ### Fixed
  - Improved first person camera control
