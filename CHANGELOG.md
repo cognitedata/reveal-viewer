@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [5.1.3] - 2019-06-05
+### Fixed
+ - Fixed an issue where angular optimization step could remove code that lead to bounding boxes with NaN values.
+
 ## [5.1.2] - 2019-06-05
 ### Fixed
  - Fixed that fast mouse movement could lead to infinite rotation.
