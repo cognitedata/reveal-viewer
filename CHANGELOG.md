@@ -1,6 +1,19 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [6.1.0] - 2019-09-39
+
+- Add support for models with textures.
+- Add support for I3DF file format for faster loading.
+
+## [6.0.2] - 2019-07-31
+
+- Improve documentation.
+
+## [6.0.0] - 2019-07-01
+
+- Use Cognite Data Fusion API v1
+
 ## [5.1.3] - 2019-06-05
 ### Fixed
  - Fixed an issue where angular optimization step could remove code that lead to bounding boxes with NaN values.
