@@ -1,7 +1,22 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [6.1.0] - 2019-09-39
+## [6.1.3] - 2019-11-20
+
+- Fix wrong rotation/normal on objects, such as toruses, caused by referencing values instead 
+  of copying.
+- Fix issue with caching not being used when bounding box is set.
+- Add missing TypeScript definition for clearCache.
+
+## [6.1.2] - 2019-10-15
+
+- Fix issue missing module idb.
+
+## [6.1.1] - 2019-10-12
+
+- Fix issue with arc angles on ring segments.
+
+## [6.1.0] - 2019-09-29
 
 - Add support for models with textures.
 - Add support for I3DF file format for faster loading.
